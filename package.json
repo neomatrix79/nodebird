@@ -1,0 +1,43 @@
+{
+  "name": "nodebird",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/app.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "ts-node": "^10.7.0",
+    "tsc-watch": "^4.6.2",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express": "^4.17.13",
+    "@types/express-session": "^1.17.4",
+    "@types/morgan": "^1.9.3",
+    "@types/multer": "^1.4.7",
+    "@types/nunjucks": "^3.2.1",
+    "@types/passport": "^1.0.7",
+    "@types/passport-kakao": "^0.2.1",
+    "@types/passport-local": "^1.0.34",
+    "@types/sequelize": "^4.28.11",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "nunjucks": "^3.2.3",
+    "passport": "^0.5.2",
+    "passport-kakao": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.17.0",
+    "sequelize-cli": "^6.4.1",
+    "sequelize-cli-typescript": "^3.2.0-c"
+  }
+}
